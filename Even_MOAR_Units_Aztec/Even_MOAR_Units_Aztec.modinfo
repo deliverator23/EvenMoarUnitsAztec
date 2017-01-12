@@ -19,6 +19,8 @@
         <File>Even_MOAR_Units_Aztec.dep</File>
         <File>Data/Even_MOAR_Units_Aztec_Data.xml</File>
 		<File>Data/Even_MOAR_Units_Aztec_Data.sql</File>
+        <File>Text/MOAR_Units_Aztec_Pedia_Text.xml</File>
+        <File>Text/MOAR_Units_Aztec_Text.xml</File>
     </Files>    
     <Components>
         <UpdateDatabase id="MOAR_Aztec_UpdateDatabase">
@@ -27,6 +29,12 @@
 				<File>Data/Even_MOAR_Units_Aztec_Data.sql</File>
             </Items>
         </UpdateDatabase>
+        <LocalizedText id="MOAR_HaHW_LocalizedText">
+            <Items>
+                <File>Text/MOAR_Units_Aztec_Pedia_Text.xml</File>
+                <File>Text/MOAR_Units_Aztec_Text.xml</File>
+            </Items>
+        </LocalizedText>
         <ModArt id="MOAR_Aztec_ModArt">
             <Items>
                 <File>Even_MOAR_Units_Aztec.dep</File>
