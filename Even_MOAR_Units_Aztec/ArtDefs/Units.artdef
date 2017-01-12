@@ -98,7 +98,7 @@
 										<m_ParamName text="Count"/>
 									</Element>
 									<Element class="AssetObjects::ArtDefReferenceValue">
-										<m_ElementName text="UnitMember_Aztec1"/>
+										<m_ElementName text="UnitMember_Jaguar"/>
 										<m_RootCollectionName text="UnitMemberTypes"/>
 										<m_ArtDefPath text="Units.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -139,7 +139,7 @@
 						</Element>
 					</Element>
 				</m_ChildCollections>
-				<m_Name text="UNIT_AZTEC1"/>
+				<m_Name text="UNIT_JAGUAR"/>
 			</Element>
 			
 			
@@ -442,7 +442,7 @@
 						</Element>
 					</Element>
 				</m_ChildCollections>
-				<m_Name text="UnitMember_Aztec1"/>
+				<m_Name text="UnitMember_Jaguar"/>
 			</Element>
 		</Element>
 		<Element>
