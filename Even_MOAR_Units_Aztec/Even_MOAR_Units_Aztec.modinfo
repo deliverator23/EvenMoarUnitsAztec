@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="bf65efa2-7cef-4519-a22f-f693e07d92f9">
+    <Properties>
+        <Name>LOC_EVEN_MOAR_UNITS_AZTEC_NAME</Name>
+        <Teaser>LOC_EVEN_MOAR_UNITS_AZTEC_TEASER</Teaser>
+    </Properties>
+    <LocalizedText>
+        <Text id="LOC_EVEN_MOAR_UNITS_AZTEC_NAME">
+            <en_US>Even Moar Units! Aztec</en_US>
+        </Text>
+        <Text id="LOC_EVEN_MOAR_UNITS_AZTEC_TEASER">
+            <en_US>Even Moar Units! Aztec</en_US>
+        </Text>        
+    </LocalizedText>  
+	<Dependencies>
+		<Mod id="02A8BDDE-67EA-4D38-9540-26E685E3156E" title="AztecMontezuma" />
+	</Dependencies>
+    <Files>
+        <File>Even_MOAR_Units_Aztec.dep</File>
+        <File>Data/Even_MOAR_Units_Aztec_Data.xml</File>
+		<File>Data/Even_MOAR_Units_Aztec_Data.sql</File>
+    </Files>    
+    <Components>
+        <UpdateDatabase id="MOAR_Aztec_UpdateDatabase">
+            <Items>
+                <File>Data/Even_MOAR_Units_Aztec_Data.xml</File>
+				<File>Data/Even_MOAR_Units_Aztec_Data.sql</File>
+            </Items>
+        </UpdateDatabase>
+        <ModArt id="MOAR_Aztec_ModArt">
+            <Items>
+                <File>Even_MOAR_Units_Aztec.dep</File>
+            </Items>
+        </ModArt>
+    </Components>
+</Mod>
