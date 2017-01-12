@@ -18,7 +18,7 @@
 		<Row UnitType="UNIT_WARRIOR_PRIEST" BaseMoves="2" Cost="120" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2"
 			 ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_SUPPORT"
 			 Name="LOC_UNIT_WARRIOR_PRIEST_NAME" Description="LOC_UNIT_WARRIOR_PRIEST_DESCRIPTION" PurchaseYield="YIELD_FAITH"
-			 MustPurchase="TRUE" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="20"
+			 CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="20"
 			 PromotionClass="PROMOTION_CLASS_SUPPORT" Maintenance="3" PrereqCivic="CIVIC_MYSTICISM"
 			 TraitType="TRAIT_CIVILIZATION_UNIT_WARRIOR_PRIEST"/>
 	</Units>
