@@ -29,7 +29,6 @@
         <File>Art/Icons/MOARUnitsFlagsAZTEC_38.dds</File>
         <File>Art/Icons/MOARUnitsFlagsAZTEC_50.dds</File>
         <File>Art/Icons/MOARUnitsFlagsAZTEC_80.dds</File>
-        <File>Art/Icons/MOARUnitsFlagsAZTEC_128.dds</File>
         <File>Art/Icons/MOARUnitsFlagsAZTEC_256.dds</File>
     </Files>
     <Settings>
@@ -57,7 +56,6 @@
                 <File>Art/Icons/MOARUnitsFlagsAZTEC_38.dds</File>
                 <File>Art/Icons/MOARUnitsFlagsAZTEC_50.dds</File>
                 <File>Art/Icons/MOARUnitsFlagsAZTEC_80.dds</File>
-                <File>Art/Icons/MOARUnitsFlagsAZTEC_128.dds</File>
                 <File>Art/Icons/MOARUnitsFlagsAZTEC_256.dds</File>
             </Items>
         </ImportFiles>
