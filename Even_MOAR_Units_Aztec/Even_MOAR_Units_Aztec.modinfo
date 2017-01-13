@@ -17,8 +17,8 @@
 	</Dependencies>
     <Files>
         <File>Even_MOAR_Units_Aztec.dep</File>
-        <File>Config/MOAR_Units_HaHW_Config.xml</File>
-        <File>Config/MOAR_Units_HaHW_Icons_Config.xml</File>
+        <File>Config/MOAR_Units_Aztec_Config.xml</File>
+        <File>Config/MOAR_Units_Aztec_Icons_Config.xml</File>
         <File>Data/Even_MOAR_Units_Aztec_Data.xml</File>
 		<File>Data/Even_MOAR_Units_Aztec_Data.sql</File>
         <File>Data/Even_MOAR_Units_Aztec_Icons.xml</File>
@@ -34,12 +34,12 @@
     <Settings>
         <Icons id="MOAR_Aztec_ICON_SETTING">
             <Items>
-                <File>Config/MOAR_Units_HaHW_Icons_Config.xml</File>
+                <File>Config/MOAR_Units_Aztec_Icons_Config.xml</File>
             </Items>
         </Icons>
         <Custom id="MOAR_Aztec_SETTING">
             <Items>
-                <File>Config/MOAR_Units_HaHW_Config.xml</File>
+                <File>Config/MOAR_Units_Aztec_Config.xml</File>
             </Items>
         </Custom>
         <LocalizedText id="MOAR_Aztec_SETTING_TEXT">
@@ -49,7 +49,7 @@
         </LocalizedText>
     </Settings>
     <Components>
-        <ImportFiles id="MOAR_FileImport">
+        <ImportFiles id="MOAR_Aztec_MOAR_FileImport">
             <Items>
                 <File>Art/Icons/MOARUnitsFlagsAZTEC_22.dds</File>
                 <File>Art/Icons/MOARUnitsFlagsAZTEC_32.dds</File>
