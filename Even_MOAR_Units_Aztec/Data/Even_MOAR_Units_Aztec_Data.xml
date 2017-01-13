@@ -41,6 +41,7 @@
 		<Row UnitType="UNIT_JAGUAR" AiType="UNITAI_EXPLORE"/>
 		<Row UnitType="UNIT_JAGUAR" AiType="UNITTYPE_MELEE"/>
 		<Row UnitType="UNIT_JAGUAR" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_WARRIOR_PRIEST" AiType="UNITTYPE_CIVILIAN"/>
 		<Row UnitType="UNIT_WARRIOR_PRIEST" AiType="UNITTYPE_SIEGE_SUPPORT"/>
 	</UnitAIInfos>
 	<Tags>
