@@ -1,4 +1,13 @@
-/* UPDATE Units
+/*
+UPDATE Units
+SET    PrereqTech=NULL, StrategicResource=NULL, Cost='1', BaseMoves='100'
+WHERE  UnitType = 'UNIT_JAGUAR';
+
+UPDATE Units
+SET    PrereqCivic=NULL, StrategicResource=NULL, Cost='1', BaseMoves='100'
+WHERE  UnitType = 'UNIT_WARRIOR_PRIEST';
+
+UPDATE Units
 SET    PrereqTech=NULL, StrategicResource=NULL, Cost='1', BaseMoves='100'
 WHERE  UnitType = 'UNIT_SWORDSMAN';
 

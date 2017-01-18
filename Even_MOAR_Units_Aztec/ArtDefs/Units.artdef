@@ -756,7 +756,14 @@
 																	<m_Values/>
 																</m_Fields>
 																<m_ChildCollections/>
-																<m_Name text="Hats/Spearman"/>
+																<m_Name text="Hats/Pikeman/SouthAmerican/Pikemen_SouthAmerican_Helm_A"/>
+															</Element>
+															<Element>
+																<m_Fields>
+																	<m_Values/>
+																</m_Fields>
+																<m_ChildCollections/>
+																<m_Name text="Hats/Pikeman/SouthAmerican/Pikemen_SouthAmerican_Helm_B"/>
 															</Element>
 															<Element>
 																<m_Fields>
@@ -857,9 +864,9 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects::RGBValue">
-										<m_r>0.86667</m_r>
-										<m_g>0.56863</m_g>
-										<m_b>0.18039</m_b>
+										<m_r>221</m_r>
+										<m_g>145</m_g>
+										<m_b>46</m_b>
 										<m_ParamName text="Color"/>
 									</Element>
 								</m_Values>
