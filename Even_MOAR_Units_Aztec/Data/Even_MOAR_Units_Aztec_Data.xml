@@ -91,8 +91,28 @@
 			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_NO_REDUCTION_DAMAGE</ModifierType>
 			<SubjectRequirementSetId>ADJACENT_WARRIOR_PRIEST_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
+		<Row>
+			<ModifierId>UNIT_STRONG_WHEN_ATTACKING_JAGUAR</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>UNIT_STRONG_WHEN_ATTACKING_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>UNIT_WEAK_WHEN_DEFENDING_JAGUAR</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>UNIT_WEAK_WHEN_DEFENDING_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
 	</Modifiers>
 	<ModifierArguments>
+		<Row>
+			<ModifierId>UNIT_STRONG_WHEN_ATTACKING_JAGUAR</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>UNIT_WEAK_WHEN_DEFENDING_JAGUAR</ModifierId>
+			<Name>Amount</Name>
+			<Value>-10</Value>
+		</Row>
 		<Row>
 			<ModifierId>RECEIVE_WARRIOR_PRIEST_GREAT_PROPHET_POINTS_BONUS</ModifierId>
 			<Name>Amount</Name>
