@@ -128,7 +128,7 @@
 		<Row>
 			<ModifierId>UNIT_STRONG_WHEN_ATTACKING_JAGUAR</ModifierId>
 			<Name>Amount</Name>
-			<Value>3</Value>
+			<Value>4</Value>
 		</Row>
 		<Row>
 			<ModifierId>UNIT_WEAK_WHEN_DEFENDING_JAGUAR</ModifierId>
