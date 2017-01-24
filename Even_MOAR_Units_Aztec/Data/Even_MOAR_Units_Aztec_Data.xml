@@ -34,7 +34,7 @@
 		<Row CivUniqueUnitType="UNIT_JAGUAR" ReplacesUnitType="UNIT_SWORDSMAN"/>
 	</UnitReplaces>
 	<UnitUpgrades>
-		<Row Unit="UNIT_JAGUAR" UpgradeUnit="UNIT_MUSKETMAN"/>
+		<Row Unit="UNIT_JAGUAR" UpgradeUnit="UNIT_MACEMAN"/>
 	</UnitUpgrades>
 	<UnitAIInfos>
 		<Row UnitType="UNIT_JAGUAR" AiType="UNITAI_COMBAT"/>
@@ -72,6 +72,14 @@
 			<ModifierId>UNIT_WEAK_WHEN_DEFENDING</ModifierId>
 		</Row>
 		<Row>
+			<UnitAbilityType>ABILITY_JAGUAR</UnitAbilityType>
+			<ModifierId>JAGUAR_IGNORE_JUNGLE_MOVEMENT_PENALTY</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_JAGUAR</UnitAbilityType>
+			<ModifierId>RANGER_IGNORE_FOREST_MOVEMENT_PENALTY</ModifierId>
+		</Row>
+		<Row>
 			<UnitAbilityType>ABILITY_RECEIVE_WARRIOR_PRIEST_BONUS</UnitAbilityType>
 			<ModifierId>RECEIVE_WARRIOR_PRIEST_GREAT_PROPHET_POINTS_BONUS</ModifierId>
 		</Row>
@@ -81,6 +89,10 @@
 		</Row>
 	</UnitAbilityModifiers>
 	<Modifiers>
+		<Row>
+			<ModifierId>JAGUAR_IGNORE_JUNGLE_MOVEMENT_PENALTY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_TERRAIN_COST</ModifierType>
+		</Row>
 		<Row>
 			<ModifierId>RECEIVE_WARRIOR_PRIEST_GREAT_PROPHET_POINTS_BONUS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_GREAT_PEOPLE_POINTS_PER_KILL</ModifierType>
@@ -103,6 +115,16 @@
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
+		<Row>
+			<ModifierId>JAGUAR_IGNORE_JUNGLE_MOVEMENT_PENALTY</ModifierId>
+			<Name>Ignore</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>JAGUAR_IGNORE_JUNGLE_MOVEMENT_PENALTY</ModifierId>
+			<Name>Type</Name>
+			<Value>JUNGLE</Value>
+		</Row>
 		<Row>
 			<ModifierId>UNIT_STRONG_WHEN_ATTACKING_JAGUAR</ModifierId>
 			<Name>Amount</Name>
