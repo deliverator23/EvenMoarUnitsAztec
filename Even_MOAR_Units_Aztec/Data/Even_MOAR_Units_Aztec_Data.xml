@@ -123,7 +123,7 @@
 		<Row>
 			<ModifierId>RECEIVE_WARRIOR_PRIEST_GREAT_PROPHET_POINTS_BONUS</ModifierId>
 			<Name>GreatPersonClassType</Name>
-			<Value>GREAT_PERSON_CLASS_PROPHET</Value>
+			<Value>GREAT_PERSON_CLASS_GENERAL</Value>
 		</Row>
 		<Row>
 			<ModifierId>RECEIVE_WARRIOR_PRIEST_NO_REDUCTION_WHEN_DAMAGED_BONUS</ModifierId>
