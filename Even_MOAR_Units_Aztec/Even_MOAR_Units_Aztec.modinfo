@@ -21,7 +21,6 @@
         <File>Config/MOAR_Units_Aztec_Config.xml</File>
         <File>Config/MOAR_Units_Aztec_Icons_Config.xml</File>
         <File>Data/Even_MOAR_Units_Aztec_Data.xml</File>
-		<File>Data/Even_MOAR_Units_Aztec_Data.sql</File>
         <File>Data/Even_MOAR_Units_Aztec_Icons.xml</File>
         <File>Text/MOAR_Units_Aztec_Pedia_Text.xml</File>
         <File>Text/MOAR_Units_Aztec_Text.xml</File>
@@ -63,7 +62,6 @@
         <UpdateDatabase id="MOAR_Aztec_UpdateDatabase">
             <Items>
                 <File>Data/Even_MOAR_Units_Aztec_Data.xml</File>
-				<File>Data/Even_MOAR_Units_Aztec_Data.sql</File>
             </Items>
         </UpdateDatabase>
         <LocalizedText id="MOAR_Aztec_LocalizedText">
