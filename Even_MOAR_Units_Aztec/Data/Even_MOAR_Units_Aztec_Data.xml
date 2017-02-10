@@ -82,7 +82,7 @@
 		</Row>
 		<Row>
 			<UnitAbilityType>ABILITY_RECEIVE_WARRIOR_PRIEST_BONUS</UnitAbilityType>
-			<ModifierId>RECEIVE_WARRIOR_PRIEST_GREAT_PROPHET_POINTS_BONUS</ModifierId>
+			<ModifierId>RECEIVE_WARRIOR_PRIEST_GREAT_GENERAL_POINTS_BONUS</ModifierId>
 		</Row>
 		<Row>
 			<UnitAbilityType>ABILITY_RECEIVE_WARRIOR_PRIEST_BONUS</UnitAbilityType>
@@ -95,7 +95,7 @@
 			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_TERRAIN_COST</ModifierType>
 		</Row>
 		<Row>
-			<ModifierId>RECEIVE_WARRIOR_PRIEST_GREAT_PROPHET_POINTS_BONUS</ModifierId>
+			<ModifierId>RECEIVE_WARRIOR_PRIEST_GREAT_GENERAL_POINTS_BONUS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_GREAT_PEOPLE_POINTS_PER_KILL</ModifierType>
 			<SubjectRequirementSetId>ADJACENT_WARRIOR_PRIEST_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
@@ -117,12 +117,12 @@
 			<Value>JUNGLE</Value>
 		</Row>
 		<Row>
-			<ModifierId>RECEIVE_WARRIOR_PRIEST_GREAT_PROPHET_POINTS_BONUS</ModifierId>
+			<ModifierId>RECEIVE_WARRIOR_PRIEST_GREAT_GENERAL_POINTS_BONUS</ModifierId>
 			<Name>Amount</Name>
 			<Value>10</Value>
 		</Row>
 		<Row>
-			<ModifierId>RECEIVE_WARRIOR_PRIEST_GREAT_PROPHET_POINTS_BONUS</ModifierId>
+			<ModifierId>RECEIVE_WARRIOR_PRIEST_GREAT_GENERAL_POINTS_BONUS</ModifierId>
 			<Name>GreatPersonClassType</Name>
 			<Value>GREAT_PERSON_CLASS_GENERAL</Value>
 		</Row>
