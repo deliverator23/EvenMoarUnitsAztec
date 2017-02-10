@@ -25,6 +25,7 @@
 	<CivilizationTraits>
 		<Row CivilizationType="CIVILIZATION_AZTEC" TraitType="TRAIT_CIVILIZATION_UNIT_JAGUAR"/>
 		<Row CivilizationType="CIVILIZATION_AZTEC" TraitType="TRAIT_CIVILIZATION_UNIT_WARRIOR_PRIEST"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" TraitType="TRAIT_CIVILIZATION_FULL_CIV"/>
 	</CivilizationTraits>
 	<Traits>
 		<Row TraitType="TRAIT_CIVILIZATION_UNIT_JAGUAR" Name="LOC_UNIT_JAGUAR_NAME"/>
