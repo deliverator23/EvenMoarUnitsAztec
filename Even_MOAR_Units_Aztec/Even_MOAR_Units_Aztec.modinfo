@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Mod id="bf65efa2-7cef-4519-a22f-f693e07d92f9">
     <Properties>
-        <Name>Even Moar Units! Aztec</Name>
+        <Name>Even Moar Units! The Aztecs</Name>
         <Teaser>Adds Jaguar Warrior and Warrior Priest units to the Aztecs.</Teaser>
-        <Description></Description>
+        <Description>Two new units for the Aztecs. Requires the Aztec DLC.
+
+Jaguar Warrior
+Unique Aztec melee unit that replaces Swordsman. +7 Combat Strength when attacking and -7 Combat Strength when defending. May capture defeated enemies, turning them into Builders. Ignores terrain movement cost in Jungle and Forest.
+
+Warrior Priest
+Aztec unique support unit available with the Mysticism Civic. Can be purchased with Faith. Adjacent Melee, Anti-Cavalry and Ranged units fight at full strength when damaged and earn Great General points from kills.
+
+Credits
+Icon Art by janboruta</Description>
         <Authors>Deliverator</Authors>
     </Properties>
 	<Dependencies>
