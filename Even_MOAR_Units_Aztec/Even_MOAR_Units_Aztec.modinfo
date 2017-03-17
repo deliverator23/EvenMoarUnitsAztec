@@ -1,22 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Mod id="bf65efa2-7cef-4519-a22f-f693e07d92f9">
     <Properties>
-        <Name>LOC_EVEN_MOAR_UNITS_AZTEC_NAME</Name>
-        <Teaser>LOC_EVEN_MOAR_UNITS_AZTEC_TEASER</Teaser>
+        <Name>Even Moar Units! The Aztecs</Name>
+        <Teaser>Adds Jaguar Warrior and Warrior Priest units to the Aztecs.</Teaser>
+        <Description>Two new units for the Aztecs. Requires the Aztec DLC.
+
+Jaguar Warrior
+Unique Aztec melee unit that replaces Swordsman. +7 Combat Strength when attacking and -7 Combat Strength when defending. May capture defeated enemies, turning them into Builders. Ignores terrain movement cost in Jungle and Forest.
+
+Warrior Priest
+Aztec unique support unit available with the Mysticism Civic. Can be purchased with Faith. Adjacent Melee, Anti-Cavalry and Ranged units fight at full strength when damaged and earn Great General points from kills.
+
+Credits
+Icon Art by janboruta</Description>
+        <Authors>Deliverator</Authors>
     </Properties>
-    <LocalizedText>
-        <Text id="LOC_EVEN_MOAR_UNITS_AZTEC_NAME">
-            <en_US>Even Moar Units! Aztec</en_US>
-        </Text>
-        <Text id="LOC_EVEN_MOAR_UNITS_AZTEC_TEASER">
-            <en_US>Adds Jaguar Warrior and Warrior Priest units to the Aztecs.</en_US>
-        </Text>        
-    </LocalizedText>  
 	<Dependencies>
 		<Mod id="02A8BDDE-67EA-4D38-9540-26E685E3156E" title="AztecMontezuma" />
         <Mod id="8342b98d-80c7-4002-87bb-419646bd9b54" title="MOARUnits" />
 	</Dependencies>
     <Files>
+        <File>ArtDefs/Units.artdef</File>
         <File>Even_MOAR_Units_Aztec.dep</File>
         <File>Config/MOAR_Units_Aztec_Config.xml</File>
         <File>Config/MOAR_Units_Aztec_Icons_Config.xml</File>
