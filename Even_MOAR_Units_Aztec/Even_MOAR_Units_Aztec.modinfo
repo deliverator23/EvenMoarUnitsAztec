@@ -26,17 +26,20 @@ Icon Art by janboruta</Description>
         <File>Config/MOAR_Units_Aztec_Icons_Config.xml</File>
         <File>Data/Even_MOAR_Units_Aztec_Data.xml</File>
         <File>Data/Even_MOAR_Units_Aztec_Icons.xml</File>
-        <File>Text/en_US/MOAR_Units_Aztec_Pedia_Text.xml</File>
-        <File>Text/en_US/MOAR_Units_Aztec_Text.xml</File>
-        <File>Text/ru_RU/MOAR_Units_Aztec_Pedia_Text.xml</File>
-        <File>Text/ru_RU/MOAR_Units_Aztec_Text.xml</File>
-        <File>Text/zh_Hans_CN/MOAR_Units_Aztec_Text.xml</File>
         <File>Art/Icons/MOARUnitsFlagsAZTEC_22.dds</File>
         <File>Art/Icons/MOARUnitsFlagsAZTEC_32.dds</File>
         <File>Art/Icons/MOARUnitsFlagsAZTEC_38.dds</File>
         <File>Art/Icons/MOARUnitsFlagsAZTEC_50.dds</File>
         <File>Art/Icons/MOARUnitsFlagsAZTEC_80.dds</File>
         <File>Art/Icons/MOARUnitsFlagsAZTEC_256.dds</File>
+
+        <!-- Files -->
+        <File>Text/en_US/MOAR_Units_Aztec_Pedia_Text.xml</File>
+        <File>Text/en_US/MOAR_Units_Aztec_Text.xml</File>
+        <File>Text/ru_RU/MOAR_Units_Aztec_Pedia_Text.xml</File>
+        <File>Text/ru_RU/MOAR_Units_Aztec_Text.xml</File>
+        <File>Text/zh_Hans_CN/MOAR_Units_Aztec_Text.xml</File>
+        <File>Text/zh_Hans_CN/MOAR_Units_Aztec_Pedia_Text.xml</File>
     </Files>
     <Settings>
         <Icons id="MOAR_Aztec_ICON_SETTING">
@@ -79,6 +82,7 @@ Icon Art by janboruta</Description>
                 <File>Text/en_US/MOAR_Units_Aztec_Text.xml</File>
                 <File>Text/ru_RU/MOAR_Units_Aztec_Pedia_Text.xml</File>
                 <File>Text/ru_RU/MOAR_Units_Aztec_Text.xml</File>
+                <File>Text/zh_Hans_CN/MOAR_Units_Aztec_Pedia_Text.xml</File>
                 <File>Text/zh_Hans_CN/MOAR_Units_Aztec_Text.xml</File>
             </Items>
         </LocalizedText>
