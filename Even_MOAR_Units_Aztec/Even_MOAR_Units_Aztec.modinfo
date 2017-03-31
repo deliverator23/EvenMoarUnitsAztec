@@ -19,6 +19,46 @@ Icon Art by janboruta</Description>
 		<Mod id="02A8BDDE-67EA-4D38-9540-26E685E3156E" title="AztecMontezuma" />
         <Mod id="8342b98d-80c7-4002-87bb-419646bd9b54" title="MOARUnits" />
 	</Dependencies>
+    <FrontEndActions>
+        <UpdateIcons id="MOAR_Aztec_ICON_SETTING">
+            <File>Config/MOAR_Units_Aztec_Icons_Config.xml</File>
+        </UpdateIcons>
+        <UpdateDatabase id="MOAR_Aztec_SETTING">
+            <File>Config/MOAR_Units_Aztec_Config.xml</File>
+        </UpdateDatabase>
+        <UpdateText id="MOAR_Aztec_SETTING_TEXT">
+            <File>Text/en_US/MOAR_Units_Aztec_Text.xml</File>
+            <File>Text/ru_RU/MOAR_Units_Aztec_Text.xml</File>
+            <File>Text/zh_Hans_CN/MOAR_Units_Aztec_Text.xml</File>
+        </UpdateText>
+    </FrontEndActions>
+    <InGameActions>
+        <ImportFiles id="MOAR_Aztec_MOAR_FileImport">
+            <File>Art/Icons/MOARUnitsFlagsAZTEC_22.dds</File>
+            <File>Art/Icons/MOARUnitsFlagsAZTEC_32.dds</File>
+            <File>Art/Icons/MOARUnitsFlagsAZTEC_38.dds</File>
+            <File>Art/Icons/MOARUnitsFlagsAZTEC_50.dds</File>
+            <File>Art/Icons/MOARUnitsFlagsAZTEC_80.dds</File>
+            <File>Art/Icons/MOARUnitsFlagsAZTEC_256.dds</File>
+        </ImportFiles>
+        <UpdateDatabase id="MOAR_Aztec_UpdateDatabase">
+            <File>Data/Even_MOAR_Units_Aztec_Data.xml</File>
+        </UpdateDatabase>
+        <UpdateText id="MOAR_Aztec_LocalizedText">
+            <File>Text/en_US/MOAR_Units_Aztec_Pedia_Text.xml</File>
+            <File>Text/en_US/MOAR_Units_Aztec_Text.xml</File>
+            <File>Text/ru_RU/MOAR_Units_Aztec_Pedia_Text.xml</File>
+            <File>Text/ru_RU/MOAR_Units_Aztec_Text.xml</File>
+            <File>Text/zh_Hans_CN/MOAR_Units_Aztec_Pedia_Text.xml</File>
+            <File>Text/zh_Hans_CN/MOAR_Units_Aztec_Text.xml</File>
+        </UpdateText>
+        <UpdateIcons id="MOAR_Aztec_Icons">
+            <File>Data/Even_MOAR_Units_Aztec_Icons.xml</File>
+        </UpdateIcons>
+        <UpdateArt id="MOAR_Aztec_ModArt">
+            <File>Even_MOAR_Units_Aztec.dep</File>
+        </UpdateArt>
+    </InGameActions>
     <Files>
         <File>ArtDefs/Units.artdef</File>
         <File>Even_MOAR_Units_Aztec.dep</File>
@@ -41,60 +81,4 @@ Icon Art by janboruta</Description>
         <File>Text/zh_Hans_CN/MOAR_Units_Aztec_Text.xml</File>
         <File>Text/zh_Hans_CN/MOAR_Units_Aztec_Pedia_Text.xml</File>
     </Files>
-    <Settings>
-        <Icons id="MOAR_Aztec_ICON_SETTING">
-            <Items>
-                <File>Config/MOAR_Units_Aztec_Icons_Config.xml</File>
-            </Items>
-        </Icons>
-        <Custom id="MOAR_Aztec_SETTING">
-            <Items>
-                <File>Config/MOAR_Units_Aztec_Config.xml</File>
-            </Items>
-        </Custom>
-        <LocalizedText id="MOAR_Aztec_SETTING_TEXT">
-            <Items>
-                <File>Text/en_US/MOAR_Units_Aztec_Text.xml</File>
-                <File>Text/ru_RU/MOAR_Units_Aztec_Text.xml</File>
-                <File>Text/zh_Hans_CN/MOAR_Units_Aztec_Text.xml</File>
-            </Items>
-        </LocalizedText>
-    </Settings>
-    <Components>
-        <ImportFiles id="MOAR_Aztec_MOAR_FileImport">
-            <Items>
-                <File>Art/Icons/MOARUnitsFlagsAZTEC_22.dds</File>
-                <File>Art/Icons/MOARUnitsFlagsAZTEC_32.dds</File>
-                <File>Art/Icons/MOARUnitsFlagsAZTEC_38.dds</File>
-                <File>Art/Icons/MOARUnitsFlagsAZTEC_50.dds</File>
-                <File>Art/Icons/MOARUnitsFlagsAZTEC_80.dds</File>
-                <File>Art/Icons/MOARUnitsFlagsAZTEC_256.dds</File>
-            </Items>
-        </ImportFiles>
-        <UpdateDatabase id="MOAR_Aztec_UpdateDatabase">
-            <Items>
-                <File>Data/Even_MOAR_Units_Aztec_Data.xml</File>
-            </Items>
-        </UpdateDatabase>
-        <LocalizedText id="MOAR_Aztec_LocalizedText">
-            <Items>
-                <File>Text/en_US/MOAR_Units_Aztec_Pedia_Text.xml</File>
-                <File>Text/en_US/MOAR_Units_Aztec_Text.xml</File>
-                <File>Text/ru_RU/MOAR_Units_Aztec_Pedia_Text.xml</File>
-                <File>Text/ru_RU/MOAR_Units_Aztec_Text.xml</File>
-                <File>Text/zh_Hans_CN/MOAR_Units_Aztec_Pedia_Text.xml</File>
-                <File>Text/zh_Hans_CN/MOAR_Units_Aztec_Text.xml</File>
-            </Items>
-        </LocalizedText>
-        <Icons id="MOAR_Aztec_Icons">
-            <Items>
-                <File>Data/Even_MOAR_Units_Aztec_Icons.xml</File>
-            </Items>
-        </Icons>
-        <ModArt id="MOAR_Aztec_ModArt">
-            <Items>
-                <File>Even_MOAR_Units_Aztec.dep</File>
-            </Items>
-        </ModArt>
-    </Components>
 </Mod>
