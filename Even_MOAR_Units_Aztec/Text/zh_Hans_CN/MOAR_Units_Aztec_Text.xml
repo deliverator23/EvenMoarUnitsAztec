@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<LocalizedText>
-		<Replace Tag="LOC_UNIT_JAGUAR_NAME" Language="en_US">
+		<Replace Tag="LOC_UNIT_JAGUAR_NAME" Language="zh_Hans_CN">
 			<Text>美洲虎战士</Text>
 		</Replace>
-		<Replace Tag="LOC_UNIT_JAGUAR_DESCRIPTION" Language="en_US">
+		<Replace Tag="LOC_UNIT_JAGUAR_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>取代剑客的阿兹特克特色近战单位,当进攻时+7战斗力[ICON_Strength],防御时-7战斗力[ICON_Strength],消灭敌方单位转换工人有一定机率会失败。</Text>
 		</Replace>
-		<Replace Tag="LOC_UNIT_WARRIOR_PRIEST_NAME" Language="en_US">
+		<Replace Tag="LOC_UNIT_WARRIOR_PRIEST_NAME" Language="zh_Hans_CN">
 			<Text>战斗祭司</Text>
 		</Replace>
-		<Replace Tag="LOC_UNIT_WARRIOR_PRIEST_DESCRIPTION" Language="en_US">
+		<Replace Tag="LOC_UNIT_WARRIOR_PRIEST_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>阿兹特克特色支援单位,研究神秘主义市政后即可招募且可用信仰购买,当受伤或死亡时即获得大将军点数,为近战、骑兵、反骑兵、远程单位提供受伤害后依旧完全战斗力能力。</Text>
 		</Replace>
 	</LocalizedText>

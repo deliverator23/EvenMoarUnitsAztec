@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<GameInfo>
-	<IconDefinitions>
-		<Row Name="ICON_UNIT_JAGUAR" Atlas="ICON_ATLAS_UNITS" Index="19"/>
-		<Row Name="ICON_UNIT_WARRIOR_PRIEST" Atlas="ICON_ATLAS_UNITS" Index="12"/>
-	</IconDefinitions>
-</GameInfo>
