@@ -51,6 +51,7 @@ Icon Art by janboruta</Description>
             <File>Art/Icons/MOARUnitsFlagsAZTEC_256.dds</File>
         </ImportFiles>
         <UpdateDatabase id="MOAR_Aztec_UpdateDatabase">
+            <Include mod_id="02A8BDDE-67EA-4D38-9540-26E685E3156E" action_id="AztecMontezumaGameplay" required="1" />
             <File>Data/Even_MOAR_Units_Aztec_Data.xml</File>
         </UpdateDatabase>
         <UpdateText id="MOAR_Aztec_LocalizedText">
