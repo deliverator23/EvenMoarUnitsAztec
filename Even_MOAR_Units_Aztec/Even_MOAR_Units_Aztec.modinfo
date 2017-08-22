@@ -58,6 +58,9 @@ Icon Art by janboruta</Description>
             <File>Data/Even_MOAR_Units_Aztec_Data.xml</File>
         </UpdateDatabase>
         <UpdateText id="MOAR_Aztec_LocalizedText">
+            <Properties>
+                <LoadOrder>10</LoadOrder>
+            </Properties>
             <File>Text/en_US/MOAR_Units_Aztec_Pedia_Text.xml</File>
             <File>Text/en_US/MOAR_Units_Aztec_Text.xml</File>
             <File>Text/es_ES/MOAR_Units_Aztec_Text.xml</File>
