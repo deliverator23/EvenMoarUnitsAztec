@@ -70,6 +70,7 @@ Icon Art by janboruta</Description>
             <File>Text/de_DE/MOAR_Units_Aztec_Text.xml</File>
             <File>Text/zh_Hans_CN/MOAR_Units_Aztec_Pedia_Text.xml</File>
             <File>Text/zh_Hans_CN/MOAR_Units_Aztec_Text.xml</File>
+            <File>Text/it_IT/MOAR_Units_Aztec_Text.xml</File>
         </UpdateText>
         <UpdateIcons id="MOAR_Aztec_Icons">
             <File>Data/Even_MOAR_Units_Aztec_Icons.xml</File>
@@ -102,5 +103,6 @@ Icon Art by janboruta</Description>
         <File>Text/de_DE/MOAR_Units_Aztec_Text.xml</File>
         <File>Text/zh_Hans_CN/MOAR_Units_Aztec_Pedia_Text.xml</File>
         <File>Text/zh_Hans_CN/MOAR_Units_Aztec_Text.xml</File>
+        <File>Text/it_IT/MOAR_Units_Aztec_Text.xml</File>
     </Files>
 </Mod>
