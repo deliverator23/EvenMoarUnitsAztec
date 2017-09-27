@@ -20,14 +20,6 @@ Icon Art by janboruta</Description>
         <Mod id="8342b98d-80c7-4002-87bb-419646bd9b54" title="MOARUnits" />
 	</Dependencies>
     <FrontEndActions>
-        <ImportFiles id="MOAR_Aztec_MOAR_FileImport">
-            <File>Art/Icons/MOARUnitsFlagsAZTEC_22.dds</File>
-            <File>Art/Icons/MOARUnitsFlagsAZTEC_32.dds</File>
-            <File>Art/Icons/MOARUnitsFlagsAZTEC_38.dds</File>
-            <File>Art/Icons/MOARUnitsFlagsAZTEC_50.dds</File>
-            <File>Art/Icons/MOARUnitsFlagsAZTEC_80.dds</File>
-            <File>Art/Icons/MOARUnitsFlagsAZTEC_256.dds</File>
-        </ImportFiles>
         <UpdateIcons id="MOAR_Aztec_ICON_SETTING">
             <File>Data/Even_MOAR_Units_Aztec_Icons.xml</File>
         </UpdateIcons>
@@ -43,14 +35,6 @@ Icon Art by janboruta</Description>
         </UpdateText>
     </FrontEndActions>
     <InGameActions>
-        <ImportFiles id="MOAR_Aztec_MOAR_FileImport">
-            <File>Art/Icons/MOARUnitsFlagsAZTEC_22.dds</File>
-            <File>Art/Icons/MOARUnitsFlagsAZTEC_32.dds</File>
-            <File>Art/Icons/MOARUnitsFlagsAZTEC_38.dds</File>
-            <File>Art/Icons/MOARUnitsFlagsAZTEC_50.dds</File>
-            <File>Art/Icons/MOARUnitsFlagsAZTEC_80.dds</File>
-            <File>Art/Icons/MOARUnitsFlagsAZTEC_256.dds</File>
-        </ImportFiles>
         <UpdateDatabase id="MOAR_Aztec_UpdateDatabase">
             <Properties>
                 <LoadOrder>10</LoadOrder>
@@ -86,12 +70,6 @@ Icon Art by janboruta</Description>
         <File>Config/MOAR_Units_Aztec_Icons_Config.xml</File>
         <File>Data/Even_MOAR_Units_Aztec_Data.xml</File>
         <File>Data/Even_MOAR_Units_Aztec_Icons.xml</File>
-        <File>Art/Icons/MOARUnitsFlagsAZTEC_22.dds</File>
-        <File>Art/Icons/MOARUnitsFlagsAZTEC_32.dds</File>
-        <File>Art/Icons/MOARUnitsFlagsAZTEC_38.dds</File>
-        <File>Art/Icons/MOARUnitsFlagsAZTEC_50.dds</File>
-        <File>Art/Icons/MOARUnitsFlagsAZTEC_80.dds</File>
-        <File>Art/Icons/MOARUnitsFlagsAZTEC_256.dds</File>
 
         <!-- Files -->
         <File>Text/en_US/MOAR_Units_Aztec_Pedia_Text.xml</File>
