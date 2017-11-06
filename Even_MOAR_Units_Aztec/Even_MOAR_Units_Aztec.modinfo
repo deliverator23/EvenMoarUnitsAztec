@@ -21,9 +21,15 @@ Icon Art by janboruta</Description>
 	</Dependencies>
     <FrontEndActions>
         <UpdateIcons id="MOAR_Aztec_ICON_SETTING">
+            <Properties>
+                <LoadOrder>10</LoadOrder>
+            </Properties>
             <File>Data/Even_MOAR_Units_Aztec_Icons.xml</File>
         </UpdateIcons>
         <UpdateDatabase id="MOAR_Aztec_SETTING">
+            <Properties>
+                <LoadOrder>10</LoadOrder>
+            </Properties>
             <File>Config/MOAR_Units_Aztec_Config.xml</File>
         </UpdateDatabase>
         <UpdateText id="MOAR_Aztec_SETTING_TEXT">
